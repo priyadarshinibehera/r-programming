@@ -1,0 +1,20 @@
+#Comparitive Operators(<,>,<=,>=,!)
+
+com1<-c(1,2,3,4)
+com2<-c(2,3,4,5,6)
+print(com1>com2)
+print(com1<com2)
+print(com1<=com2)
+print(com1>=com2)
+print(com1==com2)
+print(com1!=com2)
+
+com1<-c(1L,2L,3L,4L)
+com2<-c(2L,3L,4L,5L,6L)
+print(com1>com2)
+print(com1<com2)
+print(com1<=com2)
+print(com1>=com2)
+print(com1==com2)
+print(com1!=com2)
+    

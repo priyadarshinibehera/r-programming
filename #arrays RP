@@ -1,0 +1,15 @@
+# arrays
+#storing a values or data in 3 dimensions
+
+
+priya_array<-array(data=c(1,2,3,4,5,6,7),dim = c(3,4,4))
+print(priya_array)
+
+#task
+#arrays
+
+friends_array<-array(data=c("priya","rani","lora","sanjana","pramila"),dim=c(3,4,5))
+print(friends_array)
+
+brothers_array<-array(data=c("rahul","rohit","rathikanth","raja","rinku"),dim=c(3,6,8))
+print(brothers_array)

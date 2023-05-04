@@ -1,0 +1,50 @@
+#switch, factors and graphs
+#switch
+
+#switch case 
+#switch(expression,case1,case2,case3....)
+Y<-"4"
+X<-switch (Y,
+           "4"="ram",
+           "15"="krishna",
+           "20"="ramakrishna",
+           "25"="govinda"
+)
+print(X)
+
+X<-"10"
+Y<-switch(X,
+          "22"="priyadarshini",
+          "23"="rani",
+          "24"="lora",
+          "28"="raniya"
+)
+print(Y)
+
+
+
+day<-"wednesday"
+result<-switch(day,
+               "monday"="start of the worksheet",
+               "tuesday"="second day of the week",
+               "wednesday"="midweek,hump day",
+               "thursday"="one day away from",
+               "friday"="end of the workweek",
+               "default"="not a workday"
+)
+print(result)
+
+
+
+
+#factors
+colours<-factor(c("red","green","orange","black","yellow","purple","grey"))
+levels(colours)
+
+
+
+
+
+
+
+
